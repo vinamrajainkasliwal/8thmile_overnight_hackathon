@@ -1,0 +1,72 @@
+# Project Roadmap – E-Farmer Subsidy Leakage Detection System
+
+This roadmap outlines the development flow of our solution from 1:00 AM to final submission at 9:00 AM.
+
+----------------------------------------------------
+PHASE 1 — FOUNDATION (Completed by Checkpoint 1 - 1:00 AM)
+----------------------------------------------------
+✔ Problem Statement finalized  
+✔ Tech Stack finalized  
+✔ GitHub Repository created  
+✔ Basic E-Farmer Registration UI completed  
+✔ E-Farmer ID (EFN) auto-generation implemented  
+✔ Digital E-Farmer Card preview created  
+✔ Core data fields for farmer identity finalized  
+
+----------------------------------------------------
+PHASE 2 — ENTITLEMENT & DATA STRUCTURE (1:00 AM–3:00 AM)
+----------------------------------------------------
+• Add extended farmer fields:
+  - Crop type
+  - Rainfall zone
+  - Soil type (optional)
+• Define entitlement rules (per-acre limits)
+• Create entitlement rule table (dummy values for hackathon)
+• Prepare JSON/CSV storage structure:
+  - farmers.json
+  - entitlement_rules.json
+
+----------------------------------------------------
+PHASE 3 — DEALER TRANSACTION MODULE (3:00 AM–5:00 AM)
+----------------------------------------------------
+• Build Dealer Claim UI (EFN + product + quantity + date)
+• Store transactions in transactions.json
+• Link dealer entries with EFN
+• Generate basic transaction logs
+
+----------------------------------------------------
+PHASE 4 — FRAUD & ANOMALY DETECTION (5:00 AM–7:00 AM)
+----------------------------------------------------
+• Implement rule-based fraud engine:
+  - Over-limit claims
+  - Suspicious dealer patterns
+  - Duplicate EFN usage
+  - High-frequency clustered claims
+• Create flagged_cases.json
+
+----------------------------------------------------
+PHASE 5 — AI VERIFICATION MODULE (Prototype) (7:00 AM–8:00 AM)
+----------------------------------------------------
+• Build “Upload Land Photo” page
+• Extract mock GPS metadata (demo only)
+• Add neighbour cross-verification concept
+• Prepare future-scope ML model explanation
+
+----------------------------------------------------
+PHASE 6 — DASHBOARD + POLISH (8:00 AM–9:00 AM)
+----------------------------------------------------
+• Officer dashboard:
+  - Total farmers
+  - Total claims
+  - Suspicious cases
+  - Dealer anomalies
+• Final UI styling
+• Update README.md
+• Final commits to GitHub
+
+----------------------------------------------------
+FINAL SUBMISSION (9:00 AM)
+----------------------------------------------------
+• Submit GitHub repo
+• Submit PPT
+• Prepare verbal pitch for jury
