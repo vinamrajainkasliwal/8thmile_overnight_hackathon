@@ -1,0 +1,67 @@
+# Target for Next Checkpoint (5:00 AM)
+
+This file outlines the goals and deliverables planned for the 5:00 AM checkpoint of the Overnight Hackathon.
+
+----------------------------------------------------
+1️⃣ EXTEND FARMER DATA FIELDS
+----------------------------------------------------
+• Add additional fields to the E-Farmer registration system:
+  - Crop type
+  - Rainfall zone
+  - Soil type (optional)
+• These fields are necessary for subsidy entitlement calculations.
+
+----------------------------------------------------
+2️⃣ DEFINE ENTITLEMENT RULES
+----------------------------------------------------
+• Create a simple entitlement rule table:
+  - Maximum fertilizer or seed quantity per acre
+  - Based on crop type and rainfall zone
+• Store these rules in a dedicated file:
+  - entitlement_rules.json or entitlement_rules.csv
+
+----------------------------------------------------
+3️⃣ BUILD DEALER CLAIM LOGGING UI
+----------------------------------------------------
+• Create a new page/form for dealers to submit:
+  - E-Farmer Number (EFN)
+  - Product type (Fertilizer/Seed)
+  - Quantity issued
+  - Date of issue
+• This will form the foundation for analyzing transactions.
+
+----------------------------------------------------
+4️⃣ LINK DEALER CLAIMS WITH FARMER PROFILES
+----------------------------------------------------
+• Fetch farmer data using EFN when a dealer submits a claim.
+• Validate that:
+  - EFN exists
+  - Farmer profile is complete
+
+----------------------------------------------------
+5️⃣ IMPLEMENT BASIC FRAUD DETECTION LOGIC
+----------------------------------------------------
+• Add the first rule of anomaly detection:
+  - If `issued quantity > allowed quantity`, flag as suspicious.
+• Prepare structure for:
+  - flagged_cases.json
+
+----------------------------------------------------
+6️⃣ GITHUB COMMITS & PROGRESS UPDATES
+----------------------------------------------------
+• Upload updated frontend files (HTML/CSS/JS).
+• Add new JSON/CSV data files.
+• Add entitlement rule file.
+• Use clear commit messages like:
+  - “Added crop/rainfall/soil fields”
+  - “Dealer claim logging UI started”
+  - “Initial fraud detection rule implemented”
+
+----------------------------------------------------
+EXPECTED OUTPUT BY 5:00 AM
+----------------------------------------------------
+• Extended E-Farmer registration with more fields
+• Dealer claim form working (basic version)
+• Entitlement rules defined and stored
+• Base logic for over-limit detection functional
+• New commits visible on GitHub showing progress
