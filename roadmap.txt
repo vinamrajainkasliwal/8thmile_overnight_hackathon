@@ -5,13 +5,13 @@ This roadmap outlines the development flow of our solution from 1:00 AM to final
 ----------------------------------------------------
 PHASE 1 — FOUNDATION (Completed by Checkpoint 1 - 1:00 AM)
 ----------------------------------------------------
-✔ Problem Statement finalized  
-✔ Tech Stack finalized  
-✔ GitHub Repository created  
-✔ Basic E-Farmer Registration UI completed  
-✔ E-Farmer ID (EFN) auto-generation implemented  
-✔ Digital E-Farmer Card preview created  
-✔ Core data fields for farmer identity finalized  
+Problem Statement finalized  
+Tech Stack finalized  
+GitHub Repository created  
+Basic E-Farmer Registration UI completed  
+E-Farmer ID (EFN) auto-generation implemented  
+Digital E-Farmer Card preview created  
+Core data fields for farmer identity finalized  
 
 ----------------------------------------------------
 PHASE 2 — ENTITLEMENT & DATA STRUCTURE (1:00 AM–3:00 AM)
